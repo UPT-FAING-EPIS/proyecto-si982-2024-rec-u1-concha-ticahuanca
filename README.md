@@ -1,10 +1,3 @@
-Universidad  Privada  de  Tacna    ![ref1]![ref2]![ref3]![ref4]![ref5]![ref6]![ref3]![ref7]![ref3]![ref8]
-
-Facultad  de Ingeniería ![ref3]   ![ref6]![ref5]![ref9]![ref3]![ref10]
-
-Escuela  Profesional  de  Ingeniería  de  Sistemas ![ref3]   ![ref11]![ref12]![ref5]![ref6]![ref3]![ref10]![ref3]![ref6]![ref5]![ref13]![ref3]![ref7]
-
-“AÑO DEL BICENTENARIO  De JOSE FAUSTINO SANCHEZ CARRION” 
 
 **FACULTAD DE INGENIERÍA**   
 
@@ -19,7 +12,7 @@ NOMBRE DEL TRABAJO: “Trabajo de Asignación N°01**”**  TEMA DEL TRABAJO*:* 
 |**Nº**  |**Código Universitario**  |**Apellidos y Nombres** |
 | - | - | - |
 |**1.-**  |**2017057849**  |**Concha Llaca, Gerardo Alejandro**  |
-|**2.-** |**2018060915** |**Fiorela Milady Ticahuanca** |
+|**2.-** |**2020068765** |**Fiorela Milady Ticahuanca Cutipa** |
 
 **CURSO : “Programación Web II”** 
 
