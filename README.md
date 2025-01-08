@@ -70,7 +70,7 @@ NOMBRE DEL TRABAJO: “Trabajo de Asignación N°01**”**  TEMA DEL TRABAJO*:* 
 **HU15: Crear Chat en Línea**
 ![image](https://github.com/user-attachments/assets/e1904978-8ffe-4f2b-9f9d-90f101108371)
 
-**HU16: Crear Notificaciones**
+**HU16: Enviar Notificaciones**
 ![image](https://github.com/user-attachments/assets/fd24f582-9875-4c3a-aaa5-0b3438d97915)
 
 **HU17: Crear Grupos de Trabajo**
@@ -133,7 +133,7 @@ NOMBRE DEL TRABAJO: “Trabajo de Asignación N°01**”**  TEMA DEL TRABAJO*:* 
 **HU15: Crear Chat en Línea**
 ![image](https://github.com/user-attachments/assets/e263c750-2747-4503-a52e-3093990da42d)
 
-**HU16: Crear Notificaciones**
+**HU16: Enviar Notificaciones**
 ![image](https://github.com/user-attachments/assets/c879e92a-a9c9-4442-af1f-1b4219049af4)
 
 **HU17: Crear Grupos de Trabajo**
