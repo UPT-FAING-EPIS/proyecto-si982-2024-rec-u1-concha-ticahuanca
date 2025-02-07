@@ -17,25 +17,48 @@ namespace ProyectoCF.Controllers
         public IActionResult Index()
         {
             var rol = HttpContext.Session.GetString("Rol");
-            if (rol != "Administrador" && rol != "Docente")
+            var usuarioId = int.Parse(HttpContext.Session.GetString("UsuarioId"));
+
+            ViewBag.Rol = rol;
+
+            if (rol == "Docente")
             {
-                return Forbid();
+                var cursos = _context.Cursos
+                    .Where(curso => curso.DocenteId == usuarioId)
+                    .Select(curso => new CursoViewModel
+                    {
+                        Id = curso.Id,
+                        Nombre = curso.Nombre,
+                        Descripcion = curso.Descripcion,
+                        DocenteNombre = _context.Usuarios
+                            .Where(u => u.Id == curso.DocenteId)
+                            .Select(u => u.Nombre + " " + u.Apellido)
+                            .FirstOrDefault() ?? "No asignado"
+                    })
+                    .ToList();
+
+                return View(cursos);
             }
 
-            var cursos = _context.Cursos
-                .Select(curso => new CursoViewModel
-                {
-                    Id = curso.Id,
-                    Nombre = curso.Nombre,
-                    Descripcion = curso.Descripcion,
-                    DocenteNombre = _context.Usuarios
-                        .Where(u => u.Id == curso.DocenteId)
-                        .Select(u => u.Nombre + " " + u.Apellido)
-                        .FirstOrDefault() ?? "No asignado"
-                })
-                .ToList();
+            if (rol == "Administrador")
+            {
+                var cursos = _context.Cursos
+                    .Select(curso => new CursoViewModel
+                    {
+                        Id = curso.Id,
+                        Nombre = curso.Nombre,
+                        Descripcion = curso.Descripcion,
+                        DocenteNombre = _context.Usuarios
+                            .Where(u => u.Id == curso.DocenteId)
+                            .Select(u => u.Nombre + " " + u.Apellido)
+                            .FirstOrDefault() ?? "No asignado"
+                    })
+                    .ToList();
 
-            return View(cursos);
+                return View(cursos);
+            }
+
+            return Forbid();
         }
 
 
@@ -79,20 +102,16 @@ namespace ProyectoCF.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Curso curso)
         {
-            if (ModelState.IsValid)
-            {
                 _context.Cursos.Add(curso);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
-            }
-
-            ViewBag.Docentes = _context.Usuarios.Where(u => u.Rol == "Docente").ToList();
-            return View(curso);
         }
 
         public IActionResult Edit(int id)
         {
-            if (HttpContext.Session.GetString("Rol") != "Administrador" && HttpContext.Session.GetString("Rol") != "Docente")
+            var rol = HttpContext.Session.GetString("Rol");
+            var usuarioId = int.Parse(HttpContext.Session.GetString("UsuarioId"));
+            if (rol != "Administrador" && rol != "Docente")
             {
                 return Forbid();
             }
@@ -103,10 +122,18 @@ namespace ProyectoCF.Controllers
                 return NotFound();
             }
 
-            ViewBag.Docentes = _context.Usuarios.Where(u => u.Rol == "Docente").ToList();
+            if (rol == "Docente" && curso.DocenteId != usuarioId)
+            {
+                return Forbid();
+            }
+
+            if (rol == "Administrador")
+            {
+                ViewBag.Docentes = _context.Usuarios.Where(u => u.Rol == "Docente").ToList();
+            }
+
             return View(curso);
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -116,18 +143,11 @@ namespace ProyectoCF.Controllers
             {
                 return Forbid();
             }
+            _context.Cursos.Update(curso);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
 
-            if (ModelState.IsValid)
-            {
-                _context.Cursos.Update(curso);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-            }
-
-            ViewBag.Docentes = _context.Usuarios.Where(u => u.Rol == "Docente").ToList();
-            return View(curso);
         }
-
 
         public IActionResult Delete(int id)
         {

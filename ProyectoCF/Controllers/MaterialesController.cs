@@ -15,17 +15,52 @@ namespace ProyectoCF.Controllers
 
         public IActionResult Index()
         {
-            var materiales = _context.Materiales
-                .Include(m => m.Curso)
-                .ToList();
-            return View(materiales);
+            var rol = HttpContext.Session.GetString("Rol");
+            var usuarioId = int.Parse(HttpContext.Session.GetString("UsuarioId"));
+
+            if (rol == "Docente")
+            {
+                var materiales = _context.Materiales
+                    .Include(m => m.Curso)
+                    .Where(m => m.Curso.DocenteId == usuarioId)
+                    .ToList();
+
+                return View(materiales);
+            }
+
+            if (rol == "Administrador")
+            {
+                var materiales = _context.Materiales
+                    .Include(m => m.Curso)
+                    .ToList();
+
+                return View(materiales);
+            }
+
+            return Forbid();
         }
+
 
         public IActionResult Create()
         {
-            ViewBag.Cursos = _context.Cursos.ToList();
-            return View();
+            var rol = HttpContext.Session.GetString("Rol");
+            var usuarioId = int.Parse(HttpContext.Session.GetString("UsuarioId"));
+
+            if (rol == "Docente")
+            {
+                ViewBag.Cursos = _context.Cursos.Where(c => c.DocenteId == usuarioId).ToList();
+                return View();
+            }
+
+            if (rol == "Administrador")
+            {
+                ViewBag.Cursos = _context.Cursos.ToList();
+                return View();
+            }
+
+            return Forbid();
         }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -38,14 +73,25 @@ namespace ProyectoCF.Controllers
 
         public IActionResult Edit(int id)
         {
-            var material = _context.Materiales.Find(id);
+            var rol = HttpContext.Session.GetString("Rol");
+            var usuarioId = int.Parse(HttpContext.Session.GetString("UsuarioId"));
+
+            var material = _context.Materiales.Include(m => m.Curso).FirstOrDefault(m => m.Id == id);
+
+            if (rol == "Docente" && material?.Curso.DocenteId != usuarioId)
+            {
+                return Forbid();
+            }
+
             if (material == null)
             {
                 return NotFound();
             }
-            ViewBag.Cursos = _context.Cursos.ToList();
+
+            ViewBag.Cursos = _context.Cursos.Where(c => c.DocenteId == usuarioId).ToList();
             return View(material);
         }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]

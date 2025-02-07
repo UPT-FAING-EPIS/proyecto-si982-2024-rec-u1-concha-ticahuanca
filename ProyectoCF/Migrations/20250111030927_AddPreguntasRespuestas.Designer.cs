@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProyectoCF.Models;
 
@@ -10,9 +11,11 @@ using ProyectoCF.Models;
 namespace ProyectoCF.Migrations
 {
     [DbContext(typeof(Connection))]
-    partial class ConnectionModelSnapshot : ModelSnapshot
+    [Migration("20250111030927_AddPreguntasRespuestas")]
+    partial class AddPreguntasRespuestas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -341,7 +344,7 @@ namespace ProyectoCF.Migrations
             modelBuilder.Entity("ProyectoCF.Models.Pregunta", b =>
                 {
                     b.HasOne("ProyectoCF.Models.Evaluacion", "Evaluacion")
-                        .WithMany("Preguntas")
+                        .WithMany()
                         .HasForeignKey("EvaluacionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -363,11 +366,6 @@ namespace ProyectoCF.Migrations
             modelBuilder.Entity("ProyectoCF.Models.Curso", b =>
                 {
                     b.Navigation("Materiales");
-                });
-
-            modelBuilder.Entity("ProyectoCF.Models.Evaluacion", b =>
-                {
-                    b.Navigation("Preguntas");
                 });
 
             modelBuilder.Entity("ProyectoCF.Models.Pregunta", b =>

@@ -15,5 +15,7 @@ namespace ProyectoCF.Models
         public int CursoId { get; set; }
 
         public Curso Curso { get; set; }
+
+        public ICollection<Pregunta> Preguntas { get; set; } = new List<Pregunta>();
     }
 }

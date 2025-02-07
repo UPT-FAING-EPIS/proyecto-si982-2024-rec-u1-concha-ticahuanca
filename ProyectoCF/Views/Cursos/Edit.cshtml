@@ -12,16 +12,33 @@
         <label for="Descripcion">Descripción</label>
         <textarea name="Descripcion" class="form-control">@Model.Descripcion</textarea>
     </div>
-    <div class="form-group">
-        <label for="DocenteId">Docente</label>
-        <select name="DocenteId" class="form-control">
-            @foreach (var docente in (List<ProyectoCF.Models.Usuario>)ViewBag.Docentes)
-            {
-                <option value="@docente.Id" selected="@(Model.DocenteId == docente.Id)">
-                    @docente.Nombre @docente.Apellido
-                </option>
-            }
-        </select>
-    </div>
+
+    @if (ViewBag.Rol == "Administrador")
+    {
+        <div class="form-group">
+            <label for="DocenteId">Docente</label>
+            <select name="DocenteId" class="form-control">
+                @if (ViewBag.Docentes != null)
+                {
+                    @foreach (var docente in (List<ProyectoCF.Models.Usuario>)ViewBag.Docentes)
+                    {
+                        if (Model.DocenteId == docente.Id)
+                        {
+                            <option value="@docente.Id" selected="selected">@docente.Nombre @docente.Apellido</option>
+                        }
+                        else
+                        {
+                            <option value="@docente.Id">@docente.Nombre @docente.Apellido</option>
+                        }
+                    }
+                }
+            </select>
+        </div>
+    }
+    else
+    {
+        <input type="hidden" name="DocenteId" value="@Model.DocenteId" />
+    }
+
     <button type="submit" class="btn btn-primary mt-3">Guardar</button>
 </form>
