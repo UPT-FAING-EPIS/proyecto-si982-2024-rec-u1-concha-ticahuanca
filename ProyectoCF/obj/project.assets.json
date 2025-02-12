@@ -2794,23 +2794,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josuem\\.nuget\\packages\\": {},
+    "C:\\Users\\TM95\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\ProyectoCF\\ProyectoCF.csproj",
+      "projectUniqueName": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\ProyectoCF.csproj",
       "projectName": "ProyectoCF",
-      "projectPath": "D:\\Proyectos\\ProyectoCF\\ProyectoCF.csproj",
-      "packagesPath": "C:\\Users\\Josuem\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\ProyectoCF\\obj\\",
+      "projectPath": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\ProyectoCF.csproj",
+      "packagesPath": "C:\\Users\\TM95\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Josuem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TM95\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

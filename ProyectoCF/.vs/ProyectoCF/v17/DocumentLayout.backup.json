@@ -1,56 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Proyectos\\ProyectoCF\\",
+  "WorkspaceRootPath": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\views\\evaluaciones\\rendir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\views\\evaluaciones\\rendir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:views\\evaluaciones\\rendir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\views\\evaluaciones\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\views\\evaluaciones\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:views\\evaluaciones\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\models\\preguntasrespuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\models\\preguntasrespuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:models\\preguntasrespuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\models\\rendirevaluacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\models\\rendirevaluacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:models\\rendirevaluacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\controllers\\evaluacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\controllers\\evaluacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:controllers\\evaluacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\models\\preguntacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\models\\preguntacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:models\\preguntacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\views\\evaluaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\views\\evaluaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:views\\evaluaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\controllers\\preguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\controllers\\preguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:controllers\\preguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|d:\\proyectos\\proyectocf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|c:\\users\\tm95\\documents\\github\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\proyectocf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4114DBA-16AE-478D-8D5D-B93B246180BA}|ProyectoCF.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -68,45 +68,44 @@
               "DocumentIndex": 1,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAALgUAAAAAAAAAAAAwMkUAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-17T15:52:45.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:52:45.242Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\Usuario.cs",
               "RelativeToolTip": "Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:52:06.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:52:06.425Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Resultado.cshtml",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Views\\Evaluaciones\\Resultado.cshtml",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Views\\Evaluaciones\\Resultado.cshtml",
               "RelativeDocumentMoniker": "Views\\Evaluaciones\\Resultado.cshtml",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Views\\Evaluaciones\\Resultado.cshtml",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Views\\Evaluaciones\\Resultado.cshtml",
               "RelativeToolTip": "Views\\Evaluaciones\\Resultado.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T15:51:44.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:51:44.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Rendir.cshtml",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Views\\Evaluaciones\\Rendir.cshtml",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Views\\Evaluaciones\\Rendir.cshtml",
               "RelativeDocumentMoniker": "Views\\Evaluaciones\\Rendir.cshtml",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Views\\Evaluaciones\\Rendir.cshtml",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Views\\Evaluaciones\\Rendir.cshtml",
               "RelativeToolTip": "Views\\Evaluaciones\\Rendir.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -117,100 +116,93 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "RendirEvaluacionViewModel.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Models\\RendirEvaluacionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\RendirEvaluacionViewModel.cs",
               "RelativeDocumentMoniker": "Models\\RendirEvaluacionViewModel.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Models\\RendirEvaluacionViewModel.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\RendirEvaluacionViewModel.cs",
               "RelativeToolTip": "Models\\RendirEvaluacionViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:47:53.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:47:53.254Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "PreguntaCreateViewModel.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Models\\PreguntaCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\PreguntaCreateViewModel.cs",
               "RelativeDocumentMoniker": "Models\\PreguntaCreateViewModel.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Models\\PreguntaCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\PreguntaCreateViewModel.cs",
               "RelativeToolTip": "Models\\PreguntaCreateViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:47:41.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:47:41.419Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PreguntasRespuestas.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Models\\PreguntasRespuestas.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\PreguntasRespuestas.cs",
               "RelativeDocumentMoniker": "Models\\PreguntasRespuestas.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Models\\PreguntasRespuestas.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Models\\PreguntasRespuestas.cs",
               "RelativeToolTip": "Models\\PreguntasRespuestas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:47:40.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:47:40.705Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:13:11.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:13:11.287Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "EvaluacionesController.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Controllers\\EvaluacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Controllers\\EvaluacionesController.cs",
               "RelativeDocumentMoniker": "Controllers\\EvaluacionesController.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Controllers\\EvaluacionesController.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Controllers\\EvaluacionesController.cs",
               "RelativeToolTip": "Controllers\\EvaluacionesController.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAYwGAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:12:14.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:12:14.081Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Views\\Evaluaciones\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Views\\Evaluaciones\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Evaluaciones\\Index.cshtml",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Views\\Evaluaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Views\\Evaluaciones\\Index.cshtml",
               "RelativeToolTip": "Views\\Evaluaciones\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T15:11:51.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:11:51.919Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "PreguntasController.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Controllers\\PreguntasController.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Controllers\\PreguntasController.cs",
               "RelativeDocumentMoniker": "Controllers\\PreguntasController.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Controllers\\PreguntasController.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Controllers\\PreguntasController.cs",
               "RelativeToolTip": "Controllers\\PreguntasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T14:54:01.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T14:54:01.905Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -220,9 +212,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Proyectos\\ProyectoCF\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Proyectos\\ProyectoCF\\Program.cs",
+              "ToolTip": "C:\\Users\\TM95\\Documents\\GitHub\\proyecto-si982-2024-rec-u1-concha-ticahuanca\\ProyectoCF\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
